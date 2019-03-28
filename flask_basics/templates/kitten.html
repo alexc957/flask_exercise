@@ -1,0 +1,11 @@
+
+{% extends "base.html" %}
+
+
+
+{% block content %}
+  <h1>que se yo {{name | capitalize}}</h1>
+  <h1>que se yo Upper {{name | upper}}</h1>
+  <a href="{{ url_for('static',filename='michi1.jpg') }}">Click Here</a>
+
+{% endblock %}
